@@ -1,0 +1,49 @@
+@import "~tailwindcss/base";
+@import "~tailwindcss/components";
+@import "~tailwindcss/utilities";
+
+// Originally had in a style jsx global
+// Colors: reddish, blackish, blueish is set under tailwind.config.js
+
+@layer base {
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+  button {
+    padding: 16px 24px;
+    border-radius: 32px;
+    min-height: 55px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 22px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 22px;
+  }
+
+  h3 {
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  a,
+  a:active,
+  a:visited,
+  a:hover {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
