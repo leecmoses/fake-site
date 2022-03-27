@@ -1,5 +1,5 @@
-import Layout from "../src/components/layout";
-import Video from "../src/components/video";
+import Layout from "../src/components/Layout";
+import Video from "../src/components/Video";
 
 export default function Home(props) {
   const { videoProps } = props;
