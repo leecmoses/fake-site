@@ -3,11 +3,11 @@ function Hero() {
     <section className="hero h-screen mb-10">
       <div className="mx-auto h-screen grid content-center">
         <h1 className="text-white justify-self-center">
-          The world's greatest fake site
+          The world&#39;s greatest fake site
         </h1>
         <p className="text-white justify-self-center max-w-lg text-center">
-          Create the world's greatest fake site and enjoy the breeze of fresh
-          air when you complete it
+          Create the world&#39;s greatest fake site and enjoy the breeze of
+          fresh air when you complete it
         </p>
         <button
           className="
