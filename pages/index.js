@@ -16,7 +16,7 @@ export default function Home(props) {
         </h2>
         <p className="text-blueish max-w-5xl justify-self-center sm:text-center">
           Start by designing the experience you have in mind. We&#39;ll guide
-          you through each step. If you experience meets the quality standards,
+          you through each step. If your experience meets the quality standards,
           you&#39;ll hear more about what&#39;s next.
         </p>
       </section>

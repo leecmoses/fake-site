@@ -22,7 +22,7 @@ function Video(props) {
       <div className="sm:col-span-2 md:col-span-1 lg:col-span-2">
         <h2 className="text-blackish">{title}</h2>
         <p
-          className="max-h-80 overflow-scroll text-blueish"
+          className="max-h-80 overflow-scroll text-blueish mb-10 md:mb-0"
           dangerouslySetInnerHTML={{ __html: description }}
         ></p>
       </div>
