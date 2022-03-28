@@ -1,6 +1,6 @@
-import Header from "../header";
-import Hero from "../hero";
-import Footer from "../footer";
+import Header from "../Header/index.js";
+import Hero from "../Hero/index.js";
+import Footer from "../Footer/index.js";
 
 function Layout({ children }) {
   return (
